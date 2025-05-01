@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrepreneurial Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Entrepreneurial Dashboard</h1>
+        <button id="mode-toggle">🌙</button>
+    </header>
+    
+    <section class="dashboard">
+        <div class="goal-tracker">
+            <h2>Your Goals</h2>
+            <input type="text" id="goal-input" placeholder="Add your goal...">
+            <button id="add-goal">Add Goal</button>
+            <ul id="goal-list"></ul>
+        </div>
+
+        <div id="quote-box" class="dashboard-section">
+            <h2>Quote of the Day</h2>
+            <p id="quote-text">Loading...</p>
+            <button id="new-quote">🔁 New Quote</button>
+          </div>
+        <div class="business-analytics">
+            <h2>Business Progress</h2>
+            <canvas id="progress-chart" width="400" height="200"></canvas>
+        </div>
+
+        <div class="daily-planner">
+            <h2>Daily Planner</h2>
+            <input type="text" id="task-input" placeholder="What’s your task for today?">
+            <button id="add-task">Add Task</button>
+            <ul id="task-list"></ul>
+        </div>
+        <div id="about" class="dashboard-section">
+            <h2>👩‍💻 About Me</h2>
+            <p>
+              I'm Anushka Kothari, a B.Tech student passionate about startups, content creation, and tech.
+              I built this personal dashboard to organize my learning and life. 
+              I believe in building while learning and would love to learn from entrepreneurial minds like Ankur Warikoo!
+            </p>
+          </div>
+          
+          <nav class="navbar">
+            <h1>Anushka's Dashboard</h1>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#goal-list">Goals</a></li>
+              <li><a href="#task-list">Tasks</a></li>
+              <li><a href="#quote-box">Quotes</a></li>
+            </ul>
+          </nav>
+       
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Entrepreneurial Journey</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+    <body>
+        <nav class="navbar"> ... </nav>
+        <div class="dashboard-section" id="about"> ... </div>
+        <div class="dashboard-section" id="goal-list"> ... </div>          
+      
+</body>
+</html>
