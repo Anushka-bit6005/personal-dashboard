@@ -1,6 +1,6 @@
 # Personal Dashboard
 
-A minimal personal dashboard created as part of an internship task. Built with HTML, CSS, and JavaScript.
+A minimal personal dashboard created as the first project. Built with HTML, CSS, and JavaScript.
 
 ## Features
 - Basic layout with quick links
